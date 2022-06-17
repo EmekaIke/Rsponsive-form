@@ -1,0 +1,77 @@
+body{
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url('bg-intro-desktop.png')
+}
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Poppins:wght@200;300&display=swap');
+main{
+    width:70%;
+    /* margin:auto; */
+    margin: 8% auto 7% auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap:5%;
+
+}
+.left{
+    margin:9%;
+
+}
+.top-right{
+    background-color:hsl(248, 32%, 49%) ;
+    padding:15px;
+    text-align: center;
+    box-shadow: 0px 6px 5px grey;
+}
+h2, p{
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+h2{
+    font-size: 2rem;
+}
+button{
+    background-color: hsl(154, 59%, 51%);
+}
+.right{
+    display:grid;
+    grid-template-rows: 1fr 3.5fr;
+    border-radius: 5%;
+    margin-top: 0;
+}
+.terms{
+    font-size:10px;
+    color:gray;
+
+}
+.terms a{
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+}
+.entry{
+    background-color: white;
+    padding: 7% 10%;
+    box-shadow: 0px 6px 5px grey;
+}
+input, button{
+    width: 100%;
+    margin:3% 0;
+    padding: 5px 0;
+}
+button{
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+    h2{
+        font-size:1rem;
+    }
+    p{
+      font-size:8px;
+    }
+
+    .terms{
+        font-size:7px;
+        color:gray;
+    }
+}
